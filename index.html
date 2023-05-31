@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>マルチメディアコンテンツデザイン各論10：音楽制作のための基礎知識（1/3:音楽コンテンツの作り方）</title>
+        <link rel="stylesheet" href="MCD.css">
+        <!-- Webフォント用 -->
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+      <span class="small"><div id="time">経過時間：0秒</div></span>
+
+        <header>
+          <h1>マルチメディアコンテンツデザイン各論10：音楽制作のための基礎知識（1/3:音楽コンテンツの作り方）</h1>
+          <p class="right">
+            講師：加藤 卓哉<br>
+            <progress value="0"></progress><br>
+            (0％ / 100％)
+          </p>
+        </header>
+
+        <section> <!-- 動画 -->
+          <h2>①音楽コンテンツの作り方</h2>
+
+          <!-- <p class="doc">
+            上記の動画を試聴するか，以下の項目を一つずつ読んで内容を理解してください．<br>
+            最後に練習問題に取り組んで次の内容に進みましょう．<br>
+            <span class="small">※　動画の内容と以下の項目は同じ内容です．</span>
+          </p> -->
+          <p class="doc">
+            以下の項目を一つずつ読んで内容を理解してください．<br>
+            最後に練習問題に取り組んで次の内容に進みましょう．
+          </p>
+        </section>
+
+        <nav>
+          <h2>本項目の目次</h2>
+          <ul>
+            <li><a href="#sec1">導入</a>
+            <li><a href="#sec2">基本用語</a>
+            <li><a href="#sec3">音楽コンテンツの作り方</a>
+          </ul>
+          <ul>
+            <li><a href="#ex1">練習問題１</a>
+          </ul>
+        </nav>
+
+        <div class="anmt">
+          <section id="sec1"> <!-- sec1 -->
+            <div class="hidden_box">
+              <label for="label1">導入<span class="small">（クリックして表示）</small></label>
+              <input type="checkbox" id="label1"/>
+              <div class="hidden_show">
+                <!--非表示ここから-->
+                  <div class="slide"><img src="slides/10-01.JPG"></div>
+                  <div class="container">
+                    <div class="faceicon"><img src="icon.jpg"></div>
+                    <div class="baloon">
+                      それでは，マルチメディアコンテンツデザイン各論の第10回講義を始めます．<br>
+                      講師はGMS学部講師の平井です．<br>
+                      本日もノートを取るようにしてくださいね．
+                    </div>
+                  </div>
+                  <p class="doc">
+                    ↑の吹き出しをクリックすると，音声が読み上げられます．（環境依存あり）
+                  </p>
+
+                  <div class="slide"><img src="slides/10-02.JPG"></div>
+                  <div class="container">
+                    <div class="faceicon"><img src="icon.jpg"></div>
+                    <div class="baloon">
+                      講義スケジュールです．<br><br>
+
+                      今日は第10回の「音楽制作のための基礎知識」の内容です．<br>
+                      本講義ももうあと少しですね．
+                    </div>
+                  </div>
+
+                  <div class="slide"><img src="slides/10-03.JPG"></div>
+                  <div class="container">
+                    <div class="faceicon"><img src="icon.jpg"></div>
+                    <div class="baloon">
+                      では早速，「音楽制作のための基礎知識」について学んでいきましょう．<br>
+                      今日の内容もまた演習がメインなんですが，これまであまり理論だったり用語の説明などを十分にする前に実践していたんですが，今日は用語や音楽制作のフローなどについてしっかりと理解してもらえればと思っています．
+                    </div>
+                  </div>
+                <!--ここまで-->
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="anmt">
+          <section id="sec2"> <!-- sec2 -->
+            <div class="hidden_box">
+              <label for="label2">基本用語<span class="small">（クリックして表示）</small></label>
+              <input type="checkbox" id="label2"/>
+              <div class="hidden_show">
+                <!--非表示ここから-->
+                <div class="slide"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    この項目では，これまで何気なく使っていたDTM関連の専門用語を解説します．<br>
+                    DTM用語と言いましたが，そもそもDTMという用語についてもあまり説明せずに使っていましたね．<br>
+                    たいていこういった言葉は使いながら覚えていくものなのですが，そのままにしておくと意味がよくわからないままになったりするものなので，一度ザーっと見ておきましょう．<br>
+                    全部暗記する必要などまったくなく，一度こういう言葉があることだけ認識しておいてもらえれば，次回以降実際に用語と出会ったときに何となくイメージを掴めるようになるかと思います．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-04.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    まずはDTMで制作作業全般を行う際に使う用語です．<br>
+                    そもそもDTMとはDesktop Musicのことで，PCで音楽を作ることなんですね．<br>
+                    PCに限らず，机上で音楽を作る行為全体を指すこともあるようなのですが，最近ではPCを使った音楽制作の意味で使われるのがほとんどだと思います．<br><br>
+
+                    それからDAWですね．皆さんの場合はStudio OneがDAWソフトです．音楽制作をするにあたって必要な作業が揃っているようなWorkstation的なソフトです．<br><br>
+
+                    MP3やWAVなどは以前説明しましたね．<br><br>
+
+                    MIDIはDTMにおいて非常に重要な概念です．<br>
+                    以前Studio Oneを使ってサンプリング音楽を制作していただきましたが，あのサンプリング音楽の各素材の演奏データを編集することってできませんでしたよね．<br>
+                    この素材の2音目の音を1オクターブ高くしたい，みたいな編集は音声データに対しては適用できません．（実は最近のDAWソフトではある程度できてしまいますが．．）<br>
+                    そこで，音声波形データではなく演奏情報を記録したMIDIデータを使います．そうすると，この音だけを長くするとか，演奏の一部だけを編集したりといったことができるようになるんです．<br>
+                    要は打ち込み情報ですね．あれはまさにMIDIデータを打ち込んでいたのです．<br>
+                    MIDIファイルというと，演奏情報に関するファイルなんですが，単にMIDIというと，演奏情報をやりとりするための規格のことで，複数のMIDI対応楽器の演奏情報を同期させるときなどにも使用します．<br><br>
+
+                    VSTは以前紹介したSynth1のようなソフトウェアシンセサイザなどをDAWにプラグインとして組み込むための規格です．<br>
+                    残念ながらStudio One PrimeはVSTに対応していません．無料なので．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-05.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    トラックは大丈夫ですね．陸上のフィールドにあるトラックもまさに同じような意味で，DAWでは選手が走る代わりに楽器の音が並びます．<br><br>
+
+                    ミックスダウンはDAWで制作した各トラックの音をまとめ上げて１つのオーディオファイルにすることですね．<br><br>
+
+                    ミキサーは複数のトラックの音量などのバランスを調整する機材，機能です．フェーダーという上下にスライドするつまみがついていて音量調整ができます．<br><br>
+
+                    音量を調整する際には，dB（デシベル）という数値に注目してバランスを整えます．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-06.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    音源は，演奏情報を受信して直接音を発するシンセサイザやサンプラーなどの総称です．<br>
+                    ドラムの音源，ギターの音源などと言ったりします．<br>
+                    他にも，完成した楽曲のデモのことを音源と言ったりします．<br><br>
+
+                    BPMは以前説明しましたが，曲のテンポ（速さ）を決める単位です．<br>
+                    デフォルトでは120になっていることが多いですが，曲の雰囲気に合わせて意識して変化させないといつも同じようなテンポの曲になってしまいます．<br><br>
+
+                    クリックとは，メトロノームの音のことで，BPMで指定されたテンポで音が鳴ります．<br><br>
+
+                    ベロシティとは，打ち込みのときにはあまり意識しない要素なんですが，実際に鍵盤を使って演奏する際などには打鍵の強さが音の印象を変えます．ベロシティはそんな打鍵の強さに関するパラメータです．<br><br>
+
+                    モニターは，音を鳴らすスピーカやヘッドフォンのことで，DTMをやる際には必須の機材です．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-07.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    次は音作り関連の用語です．<br>
+                    エフェクタはエフェクトをつけるための装置です．<br>
+                    FXはエフェクトのことです．<br>
+                    イコライザは，低音域，中音域，高音域などの各周波数帯の音を増幅，軽減させることで，音質を整えるような機能です．<br>
+                    フィルタについてはシンセサイザでも扱った通りで，特定の周波数帯の音カットしたり通過させたりする装置です．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-08.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    次は機材に関連した用語です．<br>
+                    PCには，楽器やマイクを繋げられる端子はないですよね．あってもミニプラグくらいで，本格的な楽器は繋げられません．<br>
+                    オーディオインタフェースは，音楽機材とPCを繋げるための機材で，音声処理ユニットであるサウンドカードという装置を内蔵しているため，オーディオインタフェースを通すことで音声を再生，録音する際の音質がPC単体よりも良くなります．<br>
+                    MIDIコントローラは，MIDI信号を入力するためのコントローラで，これによりソフトウェアシンセサイザなどを演奏，制御することができます．<br>
+                    ソフトウェアシンセサイザをピアノのような鍵盤で演奏するためには必須の機材なので，DTMを始める際には是非持っておきたい機材です．<br>
+                    シンセサイザは説明不要ですね．<br>
+                    リズムマシンは，ドラムに特化したシーケンサです，ドラムのリズムパターンをプログラミングして，それを再生してくれます．<br>
+                    シーケンサとは，演奏データを記録して，電子楽器を自動演奏させる装置です．<br>
+                    サンプラーはあらかじめ記録された音を取り込み，再生することで自由に演奏することができる楽器です．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-09.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    最後は打ち込み関連の用語です．<br>
+                    ピアノロールも以前説明しましたが打ち込み用のシーケンス入力画面ですね．<br>
+                    ピアノと違い，一段上がるごとに半音だけ音が高くなります．白鍵も黒鍵も区別なく均等に並んでいるんですね．<br>
+                    そのため，打ち込んだ音符（ノート）を全部一度に半音上げるといった編集が非常に容易にできます．ピアノで同じことをやろうとすると，白鍵と黒鍵の関係で指使いを変えないといけないことです．<br>
+                    打ち込みはプアのロールに音符（ノート）を打ち込むことでシーケンスを作っていく作業のことですね．<br>
+                    ノートは音符のことです．<br>
+                    クオンタイズとは，ノートの発音位置がキレイに揃うような補正のことです．
+                  </div>
+                </div>
+                <!--ここまで-->
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="anmt">
+          <section id="sec3"> <!-- sec3 -->
+            <div class="hidden_box">
+              <label for="label3">音楽コンテンツの作り方<span class="small">（クリックして表示）</small></label>
+              <input type="checkbox" id="label3"/>
+              <div class="hidden_show">
+                <!--非表示ここから-->
+                <div class="slide"><img src="slides/10-10.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    次は，DTMにおける音楽コンテンツの作り方です．<br>
+                    これが唯一の方法というわけではないですし，音楽の作り方は人それぞれですが，ここに示しているのは比較的定番な流れです．<br><br>
+
+                    まずは環境整備からですね．<br>
+                    皆さんのPCにもStudio One Primeをインストールしていただきましたが，そういった環境が揃っていないとDTMははじめられません．<br>
+                    それを言うと，PCを持っていない人はPCを購入するところから始まりますね．<br>
+                    最近はiPadなどのタブレットでもある程度の音楽コンテンツ制作ができるようになってきましたが，まだ高度な録音作業や機材の連携，音源の導入に制限があるので，PCを使った方が本格的な音楽制作ができるでしょう．<br>
+                    DAWソフトをインストールしたら，音楽コンテンツ制作に必要な機材も揃えるといいでしょう．<br>
+                    オーディオインタフェース，マイク，MIDIコントローラあたりは揃えておくといいです．あとはモニター用のヘッドフォンやモニタースピーカなども用意しておきたいところですね．<br>
+                    それから音源もある程度揃えておきたいところです．<br>
+                    KOMPLETEなどの音源ソフトウェア集を持っておくと使える音の幅が広がってかなり自由な曲作りができるようになります．<br><br>
+
+                    環境が整備できたらいよいよ曲作りです．<br>
+                    とはいってもいきなりPCを開いてDAWソフトの画面と向き合ってもなかなか曲を生み出すことはできないと思います．<br>
+                    曲のアイデアを固めてから作業を開始しましょう．<br>
+                    アイデアは，何もPCに向き合いながら考える必要はありません．お風呂に入りながら鼻歌でメロディを考えたり，ギターを弾きながらコードに合わせてメロディを考えたりと，自由に曲の種となるアイデアを生み出しましょう．<br>
+                    曲の種を基にして，曲の構成や長さ，どんなジャンルにするか，楽器編成やどんな音作りをするかなどを決めていくといいです．<br><br>
+
+                    そのようなアイデアが固まれば，あとは作業です．<br>
+                    実際にDAWソフトを開いて１トラックずつ録音していきましょう．<br>
+                    機材がない場合はピアノロールに音を打ち込むことになるかと思いますが，基本的にやることは一緒で，アイデアを音に落とし込むことです．<br>
+                    歌モノを作る場合にはメロディに乗せる歌詞を作詞して，ボーカルの録音なども必要となりますね．<br>
+                    VOCALOIDに歌わせる場合はVOCALOIDのトラックを打ち込んでいきます．<br>
+                    必要なトラックが揃ったら仕上げにミックスダウン，マスタリングを行いオーディオファイルとして書き出します．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-11.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    この講義では，環境に大きな差があるので，もしすでに機材を持っているという人以外は，こちらの灰色の文字の部分は無視してしまって構いません．<br>
+                    黒字の部分にだけ取り組めばいいです．作詞もできない作業ではないですが，必ずしも必要とは限らない作業ですね．
+                  </div>
+                </div>
+
+                <div class="slide"><img src="slides/10-12.JPG"></div>
+                <div class="container">
+                  <div class="faceicon"><img src="icon.jpg"></div>
+                  <div class="baloon">
+                    続いて，録音の手順です．<br>
+                    DAWでの作業手順を想定していますが，実際の生バンドのレコーディングでもこのような順番で録音されることは多いです．<br><br>
+
+                    まずは曲の土台，骨組みとなるリズムパートから組み上げていきます．<br>
+                    最初はドラムパートから録音，打ち込みしていくことが定番です．<br>
+                    その後，ドラムと共にリズムの土台を担うベースパートを録音，打ち込みします．<br>
+                    その上に，コード，伴奏を加え，メロディや上物の効果音を乗せていったりといった順番が定番です．<br><br>
+
+                    とはいえ，音楽制作の手順に唯一絶対の正解はないので，ドラムトラックで始めて上物トラックで終わる以外の，間の部分は好みによって順番を入れ替えてしまってもいい部分です．<br>
+                    Studio Oneで作業をする際は，トラックを一つ一つ追加していって音を打ち込んでいきながら曲を作り上げていきます．<br>
+                    サンプリングなどを駆使する場合は外部ファイルを適宜追加していったりします．
+                  </div>
+                </div>
+                <!--ここまで-->
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="anmt">
+          <section id="ex1"> <!-- 練習問題 -->
+            <h2>練習問題１</h2>
+            <div class="doc">
+              次の章の学習に進むためには，練習問題に取り組み，正答する必要があります．<br>
+              わからない場合には，講義資料に戻って内容を理解するようにしてください．<br><br>
+
+              <div class="ex">
+                <u>問題：</u><br>
+                本講義資料において，録音の手順として一番最初に作成することを推奨しているトラックは以下のうちのどれか？
+              </div>
+            </div>
+            <p class="doc">
+              １．<a href="MCD1_DAW2.html" class="qanda" id="correct">ドラムトラック</a><br>
+              ２．<a href="#sec1" class="qanda">ベーストラック</a><br>
+              ３．<a href="#sec1" class="qanda">ギタートラック</a><br>
+              ４．<a href="#sec1" class="qanda">鍵盤楽器トラック</a><br>
+              ５．<a href="#sec1" class="qanda">上物用トラック</a><br>
+              ６．<a href="#sec1" class="qanda">サンプリング音源用トラック</a>
+            </p>
+          </section>
+        </div>
+
+        <footer>
+          © Faculty of Global Media Studies, Komazawa Univesity 2023.
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="MCD.js"></script>
+    </body>
+</html>
